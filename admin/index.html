@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunch</title>
+  <style>
+    p.editable {
+      cursor: move;
+    }
+
+    p.wasedited-js {
+      background: blueviolet;
+    }
+
+    .show-js {
+      background: rgb(58, 238, 58);
+    }
+
+    .row {}
+
+    .left {
+      float: left;
+      background-color: rgb(237, 232, 241);
+      width: 10%;
+      height: 2000px;
+
+    }
+
+    .right {
+      background-color: rgb(231, 210, 248);
+      width: 90%;
+      height: 2000px;
+      margin-left: 10%;
+    }
+
+    h1 {
+      font-size: 30px;
+      background-color: rgb(195, 139, 248);
+      padding: 0%;
+      margin: 0%;
+    }
+
+    .clearfix {
+      clear: both;
+    }
+
+    .mash {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      font-size: 20px;
+    }
+
+    .mash img {
+      width: 200px;
+      height: 200px;
+      margin: 5px 10px;
+    }
+
+    .left p {
+      font-size: 20px;
+      border: 2px solid rgb(124, 6, 235);
+      margin: 10px;
+    }
+
+    .table {
+      display: none;
+    }
+
+    .name {
+      display: none;
+    }
+    .comment {
+      display: none;
+    }
+    .name-js {
+      display: block;
+    }
+`
+    .show-names {
+      display: block;
+    }
+
+    .show-js {
+      display: block;
+    }
+
+   
+
+
+    .adminColor {
+      background-color: cornflowerblue;
+    }
+    #button {
+      background-color: cornflowerblue;
+      font-size: 15px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Lunch</h1>
+  <div class="row">
+    <div class="left">
+      <p class="adm">notAdmin</p>
+      <div class="users"></div>
+    </div>
+    <div class="right">
+
+      <div class="mash">
+        <div class="two">
+          <img src="https://i.pinimg.com/474x/c6/d1/e0/c6d1e0ce098cca699081980a40bb264c.jpg" alt="Second lunch"
+            width="200" height="200">
+        </div>
+        <div class="text">
+          <div class="name">Відредаговано </div>
+          <div class="table">Дата редагування </div>
+          <div class="comment">Коментар: </div>
+          <p class="editable">Яйця пашот на хлібі з сиру та батату.</p>
+          <input type="button" id="button" value="Додати коментар">
+
+        </div>
+      </div>
+
+      <div class="mash">
+        <div class="two">
+          <img src="https://i.pinimg.com/474x/a6/1f/25/a61f25d82c138b2ed2fd263bc6f01c3c.jpg" alt="Third lunch"
+            width="200" height="200">
+        </div>
+        <div class="text">
+          <div class="name">Відредаговано </div>
+          <div class="table">Дата редагування </div>
+          <p class="editable">Вівсянка з манго та карамеллю</p>
+        </div>
+      </div>
+
+      <div class="mash">
+        <div class="two">
+          <img src="https://i.pinimg.com/474x/51/ba/13/51ba13954496e37d9b0fc1ca956cd0fb.jpg" alt="Four lunch"
+            width="200" height="200">
+        </div>
+        <div class="text">
+          <div class="name">Відредаговано </div>
+          <div class="table">Дата редагування </div>
+          <p class="editable">Яєчня з грибами та шпинатом</p>
+        </div>
+      </div>
+
+      <div class="mash">
+        <div class="two">
+          <img src="https://i.pinimg.com/474x/90/a3/11/90a311ff6673b7b1e50dae7eb1b5b391.jpg" alt="Five lunch"
+            width="200" height="200">
+        </div>
+        <div class="text">
+          <div class="name">Відредаговано </div>
+          <div class="table">Дата редагування </div>
+          <p class="editable">Омлет з сирами</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="clearfix"></div>
+  </div>
+
+
+
+  <script src="script.js"> </script>
+</body>
+
+</html>

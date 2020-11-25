@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: rgb(238, 175, 238);
+    }
+h1 {
+  background-color:rgb(250, 79, 250);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+}
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none; 
+ 
+}
+a{
+  text-decoration: none;
+  color:black;
+
+ 
+}
+li {
+  padding: 2px;
+}
+.country {
+  color:black;
+  background-color: rgb(238, 175, 238);
+  font-size: 20px;
+  align-items: flex-start;
+  margin: 0%;
+  padding: 2%;
+}
+
+#button1{
+  background-color:rgb(243, 70, 243);
+  font-size: 20px;
+}
+
+
+#button2{
+  background-color:rgb(243, 70, 243);
+  font-size: 20px;
+}
+.activeSort{
+  border: 8px red solid;
+}
+
+
+
+
+
+ </style>
+</head>
+<body>
+  <h1>Список країн</h1>
+  <div>
+  <div class="country">
+    <ul></ul>
+  </div>
+  </div>
+  <input type="button" id="button1" value="Алфавіт">
+  <input type="button" id="button2" value="Номер">
+
+  <p>
+  <input type="text" id="text1" placeholder="Введіть назву країни">
+ 
+</p>
+<p>
+  <input type="text" id="text2" placeholder="Введіть номер країни">
+</p>
+<input type="button" id="submit1" value="Зберегти">
+
+  <script src="list.js"> </script>
+</body>
+</html>

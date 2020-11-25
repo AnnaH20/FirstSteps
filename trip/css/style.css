@@ -1,0 +1,194 @@
+.back-photo{
+  background-repeat: no-repeat;
+  background-image:url('../img/m-h-day.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  margin-bottom: 20px;
+  border-bottom-right-radius: 40%;
+}
+
+.photo img{
+  width: 100%;
+  height: 200px;
+  
+}
+.describe{
+  font-size: 30px;
+  color:black;
+ text-align: center;
+ margin-bottom: 20px;
+
+}
+.describe span{
+  background-color: red;
+}
+.general-photo{
+  padding: 20px;
+}
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.general-theme{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.photo{
+  width: 30%;
+}
+.general-text{
+  width: 70%;
+  padding: 20px;
+  color: white;
+}
+.lorem{
+  padding: 20px;
+  box-sizing: border-box;
+}
+.name{
+  font-size: 20px;
+  text-align: center ;
+}
+.btn{
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+.butt{
+  background-color: #699900;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  padding: 8px 25px;
+
+}
+.wrappage{
+  width: 960px;
+  margin: 0 auto;
+ 
+}
+.general-adventure{
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: linear-gradient(to right,#60901e, rgb(83, 10, 83));
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.start{
+  color: white;
+  font-size: 15px;
+}
+.ready{
+  color:black;
+  font-size: 20px;
+  font-family: "Fresca", sans-serif;
+  padding-bottom: 10px;
+}
+.ready span{
+  background-color:#14a0c7 ;
+  font-size: 20px;
+}
+footer{
+  background-color: grey;
+}
+.wrapper-footer{
+  width: 1200px;
+  
+}
+.general-footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+
+}
+.names{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+ 
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+.icons-name{
+  padding-bottom: 5px;
+}
+.byname{
+  padding-top: 10px;
+}
+.back-photo{
+  padding:20px 10%;
+}
+.back-names{
+  padding: 5px 15px;
+}
+.back-describe{
+  display: flex;
+  flex-direction: column;
+}
+.back-button{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.back-lorem{
+  padding: 30px 0;
+}
+.back-name{
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.join{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.join span{
+  background-color:#14a0c7 ;
+}
+.join-us{
+  background-color: #699900;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  padding: 8px 25px;
+}
+.account{
+  color: white;
+  text-decoration: underline;
+  padding: 9px 10%;
+}
+.back-general{
+  display: flex;
+  flex-direction: row;
+}
+.wrap{
+  width: 960px;
+  margin: 0 auto;
+}
+.sales{
+  width:100%;
+}
+.sale{
+  background-color: lightcoral;
+  font-size: 50px;
+  padding: 20px 20%;
+  color:red;
+  text-align: center;
+  box-sizing: border-box;
+}
